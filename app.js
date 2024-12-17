@@ -12,7 +12,8 @@ setTimeout(()=>{
 
 const fetchCat=()=>{
 
- fetch("https://api.thecatgapi.com/v1/images/search?limit=10")
+ fetch("https://api.thecatapi.com/v1/images/search?limit=10")
+
 .then((res)=>{
     if (!res.ok){
         throw new Error("hata var")
